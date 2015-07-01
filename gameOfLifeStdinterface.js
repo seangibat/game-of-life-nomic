@@ -27,9 +27,10 @@ rl.on('line', function(line){
       var runner = setInterval(function(){
         game.iterate();
         game.printBoard();
+        console.log("");
         if (!iterations--) clearInterval(runner);
       }, interval);
-      
+
     } else {
       game.runGame();
       game.printBoard();
