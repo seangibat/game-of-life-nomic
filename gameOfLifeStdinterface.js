@@ -29,7 +29,7 @@ rl.on('line', function(line){
         game.printBoard();
         if (!iterations--) clearInterval(runner);
       }, interval);
-
+      
     } else {
       game.runGame();
       game.printBoard();
