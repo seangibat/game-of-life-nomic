@@ -2,7 +2,7 @@
 
 I chose to wrote this in Node.
 
-gameOfLife.js is an npm module for creating a GoL simulation.
+gameOfLife.js is a node module for creating a GoL simulation.
 
 gameOfLifeStdinterface.js is the file you want to run.
 
